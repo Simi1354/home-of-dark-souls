@@ -86,11 +86,13 @@ image {
 }
 
 .pic_left {
+  image-rendering: auto;
+  position: relative;
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: auto;
-  max-width: 60%;
-  width: 920px;
+  max-width: 920px;
+  width: 60%;
   height: 540px;
   float: left;
   margin: 10px;
@@ -104,7 +106,7 @@ image {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
   max-width: 540px;
-  width: auto;
+  width: 38%;
   height: 540px;
   float: left;
   margin: 10px;
@@ -113,6 +115,10 @@ image {
   display: flexbox;
 }
 
+.boss {
+  position: relative;
+  scale: 100% 100%;
+}
 li {
   font-family: "EB Garamond", serif;
   font-size: x-large;
