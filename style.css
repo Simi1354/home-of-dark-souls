@@ -28,7 +28,7 @@ image {
   justify-content: center;
   display: flex;
   font-family: "EB Garamond", serif;
-  font-size: 1.1cm;
+  font-size: min(10vw, 10vh, 50px);
   font-weight: normal;
   color: black;
 }
