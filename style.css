@@ -165,34 +165,6 @@ video {
   margin: 0.5vw;
 }
 
-/* input {
-  height: 1.5vw;
-  width: auto;
-  background-color: rgba(121, 121, 116, 0.6);
-  font-family: "EB Garamond", serif;
-  color: black;
-  font-size: 2vw;
-  font-weight: bold;
-  border: 3px solid black;
-}
-form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 1vw;
-  width: 90vw;
-  height: 90vw;
-  border: 3px solid black;
-  margin: 5vw;
-  padding: 2.5vw;
-  font-size: 2vw;
-  font-weight: bold;
-  border-radius: 20px;
-  background-color: rgba(121, 121, 116, 0.6);
-  font-family: "EB Garamond", serif;
-  color: black;
-} */
-
 .eb-garamond {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -208,6 +180,7 @@ form {
   border-radius: 20px;
   background-color: rgba(121, 121, 116, 0.6);
   font-family: "EB Garamond", serif;
+  height: 80vh;
 }
 
 form label {
@@ -223,7 +196,7 @@ form textarea {
   background-color: rgba(121, 121, 116, 0.6);
   width: 89vw;
   padding: 0.5vw;
-  margin-bottom: 15px;
+  margin-bottom: 5vh;
   border: 3px solid black;
   border-radius: 10px;
   font-family: "EB Garamond", serif;
