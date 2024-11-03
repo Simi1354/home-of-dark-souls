@@ -180,7 +180,7 @@ video {
   border-radius: 20px;
   background-color: rgba(121, 121, 116, 0.6);
   font-family: "EB Garamond", serif;
-  height: 112.5vh;
+  height: auto;
 }
 
 form label {
