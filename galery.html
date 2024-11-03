@@ -13,7 +13,12 @@
     />
     <title>Galeria</title>
   </head>
-  <body style="background-image: url(images/galery_background2.png)">
+  <body
+    style="
+      background-image: url(images/galery_background2.png);
+      background-attachment: fixed;
+    "
+  >
     <header
       class="heading"
       style="
@@ -26,7 +31,7 @@
     >
       <b>GALERIA</b>
     </header>
-    <section style="margin-top: 40px"></section>
+    <section style="margin-top: 50px"></section>
     <grid>
       <div
         class="image"
@@ -37,7 +42,10 @@
         style="background-image: url(images/lothric_praise.png); width: 63vw"
       ></div>
       <div class="video_div">
-        <video controls src="images/stroze_walka.mp4" >
+        <video controls>
+          <source src="images/stroze_walka.mp4" />
+          Twoja przeglądarka nie obsługuje plików .mp4!
+        </video>
       </div>
       <div
         class="image"
