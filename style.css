@@ -1,4 +1,5 @@
 body {
+  width: 98vw;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -30,7 +31,7 @@ image {
   justify-content: center;
   display: flex;
   font-family: "EB Garamond", serif;
-  font-size: min(10vw, 10vh, 50px);
+  font-size: min(10vw, 10vh, 40px);
   font-weight: normal;
   color: black;
 }
