@@ -1,5 +1,4 @@
 body {
-  width: 98vw;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -102,7 +101,7 @@ a:active {
   color: black;
   max-width: 540px;
   max-height: 540px;
-  width: 36vw;
+  width: 37vw;
   height: 100vh;
   min-height: 300px;
   float: left;
@@ -222,7 +221,7 @@ form input[type="submit"]:hover {
 
 @keyframes slideLeft {
   from {
-    transform: translateX(-30vw);
+    transform: translateX(-60vw);
   }
   to {
     transform: translateX(0);
@@ -235,7 +234,7 @@ form input[type="submit"]:hover {
   font-size: 2vw;
   color: white;
   height: auto;
-  width: 25vw;
+  width: 27vw;
   margin: 1vw;
   margin-bottom: 150px;
   text-align: left;
@@ -249,13 +248,13 @@ form input[type="submit"]:hover {
   padding: 1vw;
 
   animation-name: slideLeft;
-  animation-duration: 4s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes slideRight {
   from {
-    transform: translateX(30vw);
+    transform: translateX(60vw);
   }
   to {
     transform: translateX(0);
@@ -268,7 +267,7 @@ form input[type="submit"]:hover {
   font-size: 2vw;
   color: white;
   height: auto;
-  width: 25vw;
+  width: 27vw;
   margin: 1vw;
   margin-bottom: 150px;
   text-align: left;
@@ -281,11 +280,45 @@ form input[type="submit"]:hover {
   float: right;
   padding: 1vw;
 
-  transform: translateX(30vw);
-
   animation-name: slideRight;
-  animation-duration: 4s;
-  animation-delay: 5s;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-40vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  animation-name: slideDown;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.heading1 {
+  width: 90vw;
+  height: 3vw;
+  margin: 4vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "EB Garamond", serif;
+  font-size: min(10vw, 10vh, 40px);
+  font-weight: normal;
+  color: black;
+
+  animation-name: slideDown;
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
