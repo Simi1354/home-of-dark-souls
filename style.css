@@ -3,6 +3,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 
 footer {
@@ -10,7 +11,7 @@ footer {
   text-align: center;
   color: white;
   border-top: 3px solid white;
-  font-size: x-large;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
@@ -19,10 +20,11 @@ image {
 }
 
 .heading {
+  width: 90vw;
   height: 3vw;
-  margin: 0.5vw;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin: 4vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -206,6 +208,7 @@ form input[type="submit"] {
   border-radius: 10px;
   cursor: pointer;
   font-family: "EB Garamond", serif;
+  font-weight: normal;
 }
 
 form input[type="submit"]:hover {
@@ -218,7 +221,7 @@ form input[type="submit"]:hover {
 
 @keyframes slideLeft {
   from {
-    transform: translateX(-410px);
+    transform: translateX(-30vw);
   }
   to {
     transform: translateX(0);
@@ -228,10 +231,10 @@ form input[type="submit"]:hover {
 .text_left_main {
   font-family: "EB Garamond", serif;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: white;
   height: auto;
-  width: 400px;
+  width: 25vw;
   margin: 1vw;
   margin-bottom: 150px;
   text-align: left;
@@ -241,7 +244,47 @@ form input[type="submit"]:hover {
   border: 3px solid white;
   padding: 0.5vw;
   background-color: rgba(10, 10, 45, 0.6);
+  float: left;
+  padding: 1vw;
 
   animation-name: slideLeft;
   animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(30vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.text_right_main {
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size: 2vw;
+  color: white;
+  height: auto;
+  width: 25vw;
+  margin: 1vw;
+  margin-bottom: 150px;
+  text-align: left;
+  display: flex;
+  text-wrap: wrap;
+  border-radius: 20px;
+  border: 3px solid white;
+  padding: 0.5vw;
+  background-color: rgba(10, 10, 45, 0.6);
+  float: right;
+  padding: 1vw;
+
+  transform: translateX(30vw);
+
+  animation-name: slideRight;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
